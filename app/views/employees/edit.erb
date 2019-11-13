@@ -1,0 +1,12 @@
+<%= form_for @employee do |f| %>
+
+
+  First name: <%=f.text_field :first_name %>
+  Last name:  <%= f.text_field :last_name %>
+  Alias:  <%= f.text_field :alias %>
+  Title:  <%= f.text_field :title %>
+  Office: <%= f.text_field :office %>
+
+  <%= f.submit %>
+
+<% end %>
