@@ -1,0 +1,7 @@
+<% @dogs.each do |dog| %>
+    <%= link_to dog.name, dog %>
+        <% dog.employees.each do |employee| %>
+        <%= employee.first_name %>
+        <% end%>
+<% end%>
+
